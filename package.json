@@ -1,0 +1,55 @@
+{
+  "name": "bcu-exchange-rate",
+  "version": "1.2.6",
+  "description": "Official Central Bank of Uruguay (Uruguay) daily exchange rates — 30 currencies vs UYU, history since 2000. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bcu",
+    "central",
+    "bank",
+    "of",
+    "uruguay",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "uyu",
+    "central-bank",
+    "official-rates",
+    "uruguay",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bcu/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/bcu-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/bcu-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
