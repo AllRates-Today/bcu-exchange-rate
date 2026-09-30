@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'UYU', { apiKey: 'art_live_...' });
 {
   bank: 'bcu',
   name: 'Central Bank of Uruguay',
-  rate_date: '2026-09-08',   // Central Bank of Uruguay's own publication date
+  rate_date: '2026-09-25',   // Central Bank of Uruguay's own publication date
   source: 'USD',
   target: 'UYU',
-  rate: 40.216,
+  rate: 40.39,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcu',
   name: 'Central Bank of Uruguay',
-  rate_date: '2026-09-08',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "UYU", "type": "sell", "value": 40.216 },
-    { "base": "USD", "quote": "UYU", "type": "buy", "value": 40.216 },
+    { "base": "USD", "quote": "UYU", "type": "sell", "value": 40.39 },
+    { "base": "USD", "quote": "UYU", "type": "buy", "value": 40.39 },
     // … the rest of the published table (30 currencies vs UYU)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bcu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UYU', from: '2026-01-01', to: '2026-09-08' },
+  { source: 'USD', target: 'UYU', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UYU',
   from: '2026-01-01',
-  to: '2026-09-08',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-08', rate: 40.216, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 40.39, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
