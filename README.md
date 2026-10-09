@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bcu-exchange-rate.svg)](https://github.com/AllRates-Today/bcu-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bcu-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/UYU today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcu%3Fsource%3DUSD%26target%3DUYU&query=%24.rate&label=USD%2FUYU%20published%20by%20Central%20Bank%20of%20Uruguay&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcu/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcu%3Fsource%3DUSD%26target%3DUYU&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcu/)
 
 **Official Central Bank of Uruguay (Uruguay) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Uruguay itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Uruguay table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Uruguay — 60 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| ARS | UYU | buy | 0.026517 |
+| ARS | UYU | sell | 0.026517 |
+| AUD | UYU | buy | 27.970076 |
+| AUD | UYU | sell | 27.970076 |
+| BRL | UYU | buy | 8.010439 |
+| BRL | UYU | sell | 8.010439 |
+| CAD | UYU | buy | 28.269123 |
+| CAD | UYU | sell | 28.269123 |
+| CHF | UYU | buy | 48.364205 |
+| CHF | UYU | sell | 48.364205 |
+| CLP | UYU | buy | 0.041089 |
+| CLP | UYU | sell | 0.041089 |
+| CNY | UYU | buy | 5.998717 |
+| CNY | UYU | sell | 5.998717 |
+| COP | UYU | buy | 0.012495 |
+| COP | UYU | sell | 0.012495 |
+| DKK | UYU | buy | 6.030204 |
+| DKK | UYU | sell | 6.030204 |
+| EUR | UYU | buy | 45.071389 |
+| EUR | UYU | sell | 45.071389 |
+| GBP | UYU | buy | 53.177725 |
+| GBP | UYU | sell | 53.177725 |
+| HKD | UYU | buy | 5.123664 |
+| HKD | UYU | sell | 5.123664 |
+| HUF | UYU | buy | 0.123374 |
+| HUF | UYU | sell | 0.123374 |
+| INR | UYU | buy | 0.415468 |
+| INR | UYU | sell | 0.415468 |
+| ISK | UYU | buy | 0.329185 |
+| ISK | UYU | sell | 0.329185 |
+| JPY | UYU | buy | 0.254752 |
+| JPY | UYU | sell | 0.254752 |
+| KRW | UYU | buy | 0.029965 |
+| KRW | UYU | sell | 0.029965 |
+| MXN | UYU | buy | 2.207897 |
+| MXN | UYU | sell | 2.207897 |
+| MYR | UYU | buy | 9.8337 |
+| MYR | UYU | sell | 9.8337 |
+| NOK | UYU | buy | 4.204044 |
+| NOK | UYU | sell | 4.204044 |
+| NZD | UYU | buy | 22.529663 |
+| NZD | UYU | sell | 22.529663 |
+| PEN | UYU | buy | 11.67165 |
+| PEN | UYU | sell | 11.67165 |
+| PYG | UYU | buy | 0.007063 |
+| PYG | UYU | sell | 0.007063 |
+| RUB | UYU | buy | 0.470859 |
+| RUB | UYU | sell | 0.470859 |
+| SEK | UYU | buy | 4.031603 |
+| SEK | UYU | sell | 4.031603 |
+| TRY | UYU | buy | 0.81712 |
+| TRY | UYU | sell | 0.81712 |
+| USD | UYU | buy | 40.21 |
+| USD | UYU | sell | 40.21 |
+| VES | UYU | buy | 0.046101 |
+| VES | UYU | sell | 0.046101 |
+| XDR | UYU | buy | 54.357486 |
+| XDR | UYU | sell | 54.357486 |
+| ZAR | UYU | buy | 2.421166 |
+| ZAR | UYU | sell | 2.421166 |
+
+Source: [Official rates published by BCU, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcu/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
