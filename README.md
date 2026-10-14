@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Central Bank of Uruguay — 60 rates. Updated 2026-10-13.
+Published **2026-10-13** by Central Bank of Uruguay — 60 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -162,10 +162,10 @@ const pair = await getRate('USD', 'UYU', { apiKey: 'art_live_...' });
 {
   bank: 'bcu',
   name: 'Central Bank of Uruguay',
-  rate_date: '2026-10-09',   // Central Bank of Uruguay's own publication date
+  rate_date: '2026-10-13',   // Central Bank of Uruguay's own publication date
   source: 'USD',
   target: 'UYU',
-  rate: 40.184,
+  rate: 40.2,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -190,10 +190,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcu',
   name: 'Central Bank of Uruguay',
-  rate_date: '2026-10-09',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "UYU", "type": "sell", "value": 40.184 },
-    { "base": "USD", "quote": "UYU", "type": "buy", "value": 40.184 },
+    { "base": "USD", "quote": "UYU", "type": "sell", "value": 40.2 },
+    { "base": "USD", "quote": "UYU", "type": "buy", "value": 40.2 },
     // … the rest of the published table (30 currencies vs UYU)
   ],
   disclaimer: '…'
@@ -233,7 +233,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bcu-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'UYU', from: '2026-01-01', to: '2026-10-09' },
+  { source: 'USD', target: 'UYU', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -246,11 +246,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'UYU',
   from: '2026-01-01',
-  to: '2026-10-09',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-09', rate: 40.184, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 40.2, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
