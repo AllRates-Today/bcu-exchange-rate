@@ -32,70 +32,70 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by Central Bank of Uruguay — 60 rates. Updated 2026-11-21.</summary>
+<summary>Table as text: published 2026-11-23 by Central Bank of Uruguay — 60 rates. Updated 2026-11-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| ARS | UYU | buy | 0.025726 |
-| ARS | UYU | sell | 0.025726 |
-| AUD | UYU | buy | 26.937027 |
-| AUD | UYU | sell | 26.937027 |
-| BRL | UYU | buy | 6.840129 |
-| BRL | UYU | sell | 6.840129 |
-| CAD | UYU | buy | 28.350429 |
-| CAD | UYU | sell | 28.350429 |
-| CHF | UYU | buy | 48.356344 |
-| CHF | UYU | sell | 48.356344 |
-| CLP | UYU | buy | 0.039756 |
-| CLP | UYU | sell | 0.039756 |
-| CNY | UYU | buy | 6.090026 |
-| CNY | UYU | sell | 6.090026 |
-| COP | UYU | buy | 0.011606 |
-| COP | UYU | sell | 0.011606 |
-| DKK | UYU | buy | 5.96319 |
-| DKK | UYU | sell | 5.96319 |
-| EUR | UYU | buy | 44.56595 |
-| EUR | UYU | sell | 44.56595 |
-| GBP | UYU | buy | 53.203676 |
-| GBP | UYU | sell | 53.203676 |
-| HKD | UYU | buy | 5.18346 |
-| HKD | UYU | sell | 5.18346 |
-| HUF | UYU | buy | 0.119371 |
-| HUF | UYU | sell | 0.119371 |
-| INR | UYU | buy | 0.438427 |
-| INR | UYU | sell | 0.438427 |
-| ISK | UYU | buy | 0.325475 |
-| ISK | UYU | sell | 0.325475 |
-| JPY | UYU | buy | 0.25577 |
-| JPY | UYU | sell | 0.25577 |
-| KRW | UYU | buy | 0.030286 |
-| KRW | UYU | sell | 0.030286 |
-| MXN | UYU | buy | 2.131134 |
-| MXN | UYU | sell | 2.131134 |
-| MYR | UYU | buy | 9.885401 |
-| MYR | UYU | sell | 9.885401 |
-| NOK | UYU | buy | 4.158206 |
-| NOK | UYU | sell | 4.158206 |
-| NZD | UYU | buy | 22.256566 |
-| NZD | UYU | sell | 22.256566 |
-| PEN | UYU | buy | 11.759479 |
-| PEN | UYU | sell | 11.759479 |
-| PYG | UYU | buy | 0.006345 |
-| PYG | UYU | sell | 0.006345 |
-| RUB | UYU | buy | 0.492423 |
-| RUB | UYU | sell | 0.492423 |
-| SEK | UYU | buy | 3.972875 |
-| SEK | UYU | sell | 3.972875 |
-| TRY | UYU | buy | 0.803914 |
-| TRY | UYU | sell | 0.803914 |
-| USD | UYU | buy | 40.629 |
-| USD | UYU | sell | 40.629 |
-| VES | UYU | buy | 0.044332 |
-| VES | UYU | sell | 0.044332 |
-| XDR | UYU | buy | 54.558246 |
-| XDR | UYU | sell | 54.558246 |
-| ZAR | UYU | buy | 2.31943 |
-| ZAR | UYU | sell | 2.31943 |
+| ARS | UYU | buy | 0.025785 |
+| ARS | UYU | sell | 0.025785 |
+| AUD | UYU | buy | 26.977663 |
+| AUD | UYU | sell | 26.977663 |
+| BRL | UYU | buy | 6.862897 |
+| BRL | UYU | sell | 6.862897 |
+| CAD | UYU | buy | 28.327652 |
+| CAD | UYU | sell | 28.327652 |
+| CHF | UYU | buy | 48.327795 |
+| CHF | UYU | sell | 48.327795 |
+| CLP | UYU | buy | 0.040083 |
+| CLP | UYU | sell | 0.040083 |
+| CNY | UYU | buy | 6.108761 |
+| CNY | UYU | sell | 6.108761 |
+| COP | UYU | buy | 0.011556 |
+| COP | UYU | sell | 0.011556 |
+| DKK | UYU | buy | 5.93393 |
+| DKK | UYU | sell | 5.93393 |
+| EUR | UYU | buy | 44.349241 |
+| EUR | UYU | sell | 44.349241 |
+| GBP | UYU | buy | 53.043175 |
+| GBP | UYU | sell | 53.043175 |
+| HKD | UYU | buy | 5.192217 |
+| HKD | UYU | sell | 5.192217 |
+| HUF | UYU | buy | 0.120309 |
+| HUF | UYU | sell | 0.120309 |
+| INR | UYU | buy | 0.438296 |
+| INR | UYU | sell | 0.438296 |
+| ISK | UYU | buy | 0.323671 |
+| ISK | UYU | sell | 0.323671 |
+| JPY | UYU | buy | 0.255962 |
+| JPY | UYU | sell | 0.255962 |
+| KRW | UYU | buy | 0.030425 |
+| KRW | UYU | sell | 0.030425 |
+| MXN | UYU | buy | 2.127345 |
+| MXN | UYU | sell | 2.127345 |
+| MYR | UYU | buy | 9.883738 |
+| MYR | UYU | sell | 9.883738 |
+| NOK | UYU | buy | 4.135245 |
+| NOK | UYU | sell | 4.135245 |
+| NZD | UYU | buy | 22.168512 |
+| NZD | UYU | sell | 22.168512 |
+| PEN | UYU | buy | 11.782697 |
+| PEN | UYU | sell | 11.782697 |
+| PYG | UYU | buy | 0.006341 |
+| PYG | UYU | sell | 0.006341 |
+| RUB | UYU | buy | 0.495167 |
+| RUB | UYU | sell | 0.495167 |
+| SEK | UYU | buy | 3.958299 |
+| SEK | UYU | sell | 3.958299 |
+| TRY | UYU | buy | 0.804884 |
+| TRY | UYU | sell | 0.804884 |
+| USD | UYU | buy | 40.721 |
+| USD | UYU | sell | 40.721 |
+| VES | UYU | buy | 0.044433 |
+| VES | UYU | sell | 0.044433 |
+| XDR | UYU | buy | 54.69604 |
+| XDR | UYU | sell | 54.69604 |
+| ZAR | UYU | buy | 2.340328 |
+| ZAR | UYU | sell | 2.340328 |
 
 </details>
 
@@ -366,7 +366,7 @@ Need the whole archive rather than an API call? The same official tables are mir
 
 - **Website:** [allratestoday.com](https://allratestoday.com)
 - [Central Bank of Uruguay rates page](https://allratestoday.com/central-bank-rates-api/bcu/) — live table, publication cadence, FAQ
-- [All central bank sources](https://allratestoday.com/central-bank-rates-api/) · [Full list of 130+ central banks and tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/) — one API, the same response shape for every source
+- [All central bank sources](https://allratestoday.com/central-bank-rates-api/) · [Full list of 120+ central banks and 50+ tax authorities](https://allratestoday.com/central-bank-rates-api/institutions/) — one API, the same response shape for every source
 - [Download central bank rates](https://allratestoday.com/download-central-bank-rates/) — every bank's latest table and history as Excel, CSV or JSON
 - [Bank Exchange Rate API](https://allratestoday.com/bank-exchange-rate-api/) — live buy and sell rates from 1,200+ commercial banks in 120+ countries · [npm](https://www.npmjs.com/package/bank-exchange-rates) · [GitHub](https://github.com/AllRates-Today/bank-exchange-rates)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bcu-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
